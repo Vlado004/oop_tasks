@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
 //SVAKI BROJ SAMO JEDNOM
-void pronadi(int* niz, int velicina) {
-	int ponavljanja[] = { 0,0,0,0,0,0,0,0,0 };
-	for (int i = 0; i < velicina; i++) {
-		ponavljanja[niz[i] - 1]++;
-	}
-	for (int i = 0; i < 9; i++) {
-		if (ponavljanja[i] == 0) {
-			niz[velicina] = i + 1;
-			break;
+void pronadi(int* niz) {
+	for (int i = 1; i <= 9; i++) {
+		bool pronaden = false;
+		for (int j = 0; j < 8; j++) {
+			if (i == niz[j])
+				pronaden = true;
+		}
+		if (!pronaden) {
+			niz[8] = i;
 		}
 	}
 	int min;
-	for (int i = 0; i < velicina; i++) {
+	for (int i = 0; i < 9; i++) {
 		min = i;
-		for (int j = i + 1; j < velicina; j++) {
+		for (int j = i + 1; j < 9; j++) {
 			if (niz[j] < niz[min])
 				min = j;
 
@@ -25,20 +25,18 @@ void pronadi(int* niz, int velicina) {
 }
 
 int main() {
-	int* niz = new int[];
-	int index = 0, upis;
-	while (true) {
-		cout << "Upisi neki broj\n";
-		cin >> upis;
-		if (upis == 0) {
-			break;
-		}
-		niz[index] = upis;
-		index++;
+	int* niz = new int[9];
+	for (int i = 0; i < 9; i++) {
+		niz[i] = ((i + 1) * 7) % 10;
 	}
-	pronadi(niz, index);
-	for (int i = 0; i <= index; i++) {
+	for (int i = 0; i < 8; i++) {
+		cout << niz[i] << " ";
+	}
+	cout << endl;
+	pronadi(niz);
+	for (int i = 0; i < 9; i++) {
 		cout << niz[i] << " ";
 	}
 	delete[] niz;
+	system("Pause");
 }
