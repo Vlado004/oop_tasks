@@ -27,7 +27,7 @@ typedef struct {
 	void vector_pop_back() {
 		if (!log_vel)
 			return;
-		log_vel = log_vel - 1;
+		log_vel--;
 	}
 
 	int vector_size() {
@@ -57,8 +57,8 @@ int main() {
 	v->vector_back() = 56;
 
 	for (int i = 0; i < 15; i++) {
-		v->vector_pop_back();
 		cout << v->vector_back() << endl;
+		v->vector_pop_back();
 	}
 
 	v->vector_delete();

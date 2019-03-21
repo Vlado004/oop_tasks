@@ -1,0 +1,12 @@
+﻿  funkcije.cpp
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(22): warning C4018: '<': signed/unsigned mismatch
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(28): error C2572: 'unos_vectora': redefinition of default argument: parameter 1
+  d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.h(9): note: see declaration of 'unos_vectora'
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(28): error C2572: 'unos_vectora': redefinition of default argument: parameter 2
+  d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.h(9): note: see declaration of 'unos_vectora'
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(28): error C2572: 'unos_vectora': redefinition of default argument: parameter 3
+  d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.h(9): note: see declaration of 'unos_vectora'
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(48): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\mateo mamut\oop_tasks\vjezba3\zadatak2\funkcije.cpp(59): warning C4018: '<': signed/unsigned mismatch
+  Zad2.cpp
+  Generating Code...
