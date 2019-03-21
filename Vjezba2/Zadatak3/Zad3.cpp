@@ -18,16 +18,16 @@ typedef struct {
 	void vector_push_back(int broj) {
 		if (log_vel == fiz_vel) {
 			niz = (int*)realloc(niz, fiz_vel*2*sizeof(int));
+			fiz_vel = 2 * fiz_vel;
 		}
 		niz[log_vel] = broj;
 		log_vel++;
 	}
 
-	int vector_pop_back() {
+	void vector_pop_back() {
 		if (!log_vel)
-			return NULL;
+			return;
 		log_vel = log_vel - 1;
-		return niz[log_vel];
 	}
 
 	int vector_size() {
@@ -57,7 +57,8 @@ int main() {
 	v->vector_back() = 56;
 
 	for (int i = 0; i < 15; i++) {
-		cout << v->vector_pop_back() << endl;
+		v->vector_pop_back();
+		cout << v->vector_back() << endl;
 	}
 
 	v->vector_delete();
