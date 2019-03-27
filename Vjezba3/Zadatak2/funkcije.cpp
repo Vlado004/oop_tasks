@@ -25,7 +25,7 @@ void ispis_vectora(vector<int> &vector) {
 	cout << endl;
 }
 
-vector<int> unos_vectora(vector<int> &vector, bool unos, int donja = 0, int gornja = 100, int br_elem = 5) {
+vector<int> unos_vectora(vector<int> &vector, bool unos, int donja/* = 0*/, int gornja/* = 100*/, int br_elem/* = 5*/) {
 	if (gornja < donja) {
 		swap(gornja, donja);
 	}
@@ -45,7 +45,6 @@ vector<int> unos_vectora(vector<int> &vector, bool unos, int donja = 0, int gorn
 		}
 	}
 	else {
-		srand(time(NULL));
 		for (int i = 0; i < br_elem; i++) {
 			vector.push_back(donja + (rand() % (gornja + 1)));
 		}
@@ -54,12 +53,10 @@ vector<int> unos_vectora(vector<int> &vector, bool unos, int donja = 0, int gorn
 }
 
 vector<int> pronadi(vector<int> prvi, vector<int> drugi, vector<int> novi) {
-	qsort(&drugi, drugi.size(), sizeof(int), compare);
-	int brojac = 0;
+	sort(drugi.begin(), drugi.end());
 	for (int i = 0; i < prvi.size(); i++) {
 		if (binary_search(drugi.begin(), drugi.end(), prvi[i])) {
-			novi[brojac] = prvi[i];
-			brojac++;
+			novi.push_back(prvi[i]);
 		}
 	}
 	return novi;
