@@ -1,2 +1,3 @@
 ﻿  Zad4.cpp
+d:\faks\oop\oop_tasks\vjezba3\zadatak4\zad4.cpp(6): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Zadatak4.vcxproj -> D:\Faks\OOP\oop_tasks\Vjezba3\Debug\Zadatak4.exe
