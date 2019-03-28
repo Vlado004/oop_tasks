@@ -12,6 +12,4 @@ void ispis_vectora(vector<int> &vector);
 
 vector<int> pronadi(vector<int> prvi, vector<int>drugi, vector<int> novi);
 
-int compare(const void* a, const void* b);
-
 #endif

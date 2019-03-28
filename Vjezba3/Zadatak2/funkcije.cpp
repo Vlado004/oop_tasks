@@ -5,19 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-int compare(const void* a, const void* b)
-{
-	const int* x = (int*)a;
-	const int* y = (int*)b;
-
-	if (*x > *y)
-		return 1;
-	else if (*x < *y)
-		return -1;
-
-	return 0;
-}
-
 void ispis_vectora(vector<int> &vector) {
 	for (int i = 0; i < vector.size(); i++) {
 		cout << vector[i] << " ";
@@ -25,7 +12,7 @@ void ispis_vectora(vector<int> &vector) {
 	cout << endl;
 }
 
-vector<int> unos_vectora(vector<int> &vector, bool unos, int donja/* = 0*/, int gornja/* = 100*/, int br_elem/* = 5*/) {
+vector<int> unos_vectora(vector<int> &vector, bool unos, int donja, int gornja, int br_elem) {
 	if (gornja < donja) {
 		swap(gornja, donja);
 	}
