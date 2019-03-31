@@ -1,46 +1,8 @@
 #include <iostream>
 #include <time.h>
 #include <math.h>
+#include "Zad1Header.h"
 using namespace std;
-
-class Tocka_3d {
-private:
-	double duzina, visina, sirina;
-
-public:
-	void postavi_vrijednost(int x = 0, int y = 0, int z = 0) {
-		duzina = x;
-		sirina = y;
-		visina = z;
-	}
-
-	void random_vrijednost(int a, int b) {
-		if (a > b)
-			swap(a, b);
-		duzina = a + (rand() % (b - a + 1));
-		sirina = a + (rand() % (b - a + 1));
-		visina = a + (rand() % (b - a + 1));
-	}
-
-	const double dohvati_duljinu() { return duzina; }
-
-	const double dohvati_visinu() { return visina; }
-
-	const double dohvati_sirinu() { return sirina; }
-
-	const double udaljenost_2d(Tocka_3d tocka) {
-		int x = duzina - tocka.duzina;
-		int y = sirina - tocka.sirina;
-		return sqrt(x * x + y * y);
-	}
-
-	const double udaljenost_3d(Tocka_3d tocka) {
-		int x = duzina - tocka.duzina;
-		int y = sirina - tocka.sirina;
-		int z = visina - tocka.visina;
-		return sqrt(x * x + y * y + z * z);
-	}
-};
 
 int main() {
 	srand(time(NULL));

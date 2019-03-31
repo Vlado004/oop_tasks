@@ -1,8 +1,1 @@
-﻿  Zad1.cpp
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(32): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-d:\mateo mamut\oop_tasks\vjezba4\zadatak1\zad1.cpp(46): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Zadatak1.vcxproj -> D:\Mateo Mamut\oop_tasks\Vjezba4\Debug\Zadatak1.exe
+﻿  Zadatak1.vcxproj -> D:\Faks\OOP\oop_tasks\Vjezba4\Debug\Zadatak1.exe

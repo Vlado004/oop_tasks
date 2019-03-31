@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Zad2.cpp" />
+    <ClCompile Include="Zad2GunHeader.cpp" />
+    <ClCompile Include="Zad2PointHeader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Zad2GunHeader.h" />
+    <ClInclude Include="Zad2PointHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

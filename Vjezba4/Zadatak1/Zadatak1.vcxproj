@@ -116,6 +116,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Zad1.cpp" />
+    <ClCompile Include="Zad1Header.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Zad1Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
