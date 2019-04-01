@@ -8,16 +8,20 @@ void Gun::reload() {
 }
 
 void Gun::shoot() {
-	if (!bullets)
+	if (bullets)
 		bullets--;
 	else
 		cout << "You do not have enough bullets, reload." << endl;
 }
 
-void Gun::move(int a, int b) {
+void Gun::move_rand(int a, int b) {
 	position.random_vrijednost(a, b);
 }
 
-int Gun::current_bullets() {
+const Tocka_3d Gun::current_position() {
+	return position;
+}
+
+const int Gun::current_bullets() {
 	return bullets;
 }

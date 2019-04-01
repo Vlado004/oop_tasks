@@ -1,0 +1,5 @@
+﻿  Zad4.cpp
+d:\faks\oop\oop_tasks\vjezba4\zadatak4\zad4.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\faks\oop\oop_tasks\vjezba4\zadatak4\zad4.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\faks\oop\oop_tasks\vjezba4\zadatak4\zad4.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Zadatak4.vcxproj -> D:\Faks\OOP\oop_tasks\Vjezba4\Debug\Zadatak4.exe

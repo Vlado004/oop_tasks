@@ -1,4 +1,4 @@
-#include "Zad1Header.h"
+#include "Zad2PointHeader.h"
 #include <iostream>
 #include <math.h>
 

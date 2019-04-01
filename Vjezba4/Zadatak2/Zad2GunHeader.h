@@ -7,15 +7,17 @@ private:
 	int clip_size, bullets;
 	Tocka_3d position;
 public:
-	Gun() { clip_size = 9; bullets = 9; }
+	Gun() { clip_size = 15; bullets = 15; }
 
 	void reload();
 
 	void shoot();
 
-	void move(int, int);
+	void move_rand(int, int);
 
-	int current_bullets();
+	const Tocka_3d current_position();
+
+	const int current_bullets();
 };
 
 #endif
