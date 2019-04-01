@@ -1,7 +1,0 @@
-﻿  Zad2.cpp
-d:\faks\oop\oop_tasks\vjezba3\zadatak2\zad2.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  funkcije.cpp
-d:\faks\oop\oop_tasks\vjezba3\zadatak2\funkcije.cpp(22): warning C4018: '<': signed/unsigned mismatch
-d:\faks\oop\oop_tasks\vjezba3\zadatak2\funkcije.cpp(57): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  Zadatak2.vcxproj -> D:\Faks\OOP\oop_tasks\Vjezba3\Debug\Zadatak2.exe
