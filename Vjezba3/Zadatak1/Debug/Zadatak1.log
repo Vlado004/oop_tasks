@@ -1,4 +1,0 @@
-﻿  Zad1.cpp
-d:\mateo mamut\oop_tasks\vjezba3\zadatak1\zad1.cpp(7): warning C4018: '<': signed/unsigned mismatch
-d:\mateo mamut\oop_tasks\vjezba3\zadatak1\zad1.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Zadatak1.vcxproj -> D:\Mateo Mamut\oop_tasks\Vjezba3\Debug\Zadatak1.exe
