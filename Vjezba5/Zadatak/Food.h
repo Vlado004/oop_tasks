@@ -8,12 +8,11 @@ using namespace std;
 
 class Food {
 private:
-	string vrsta, naziv;
+	string vrsta, naziv, datum_isteka;
 	int kolicina_vode, kolicina_proteina, kolicina_masti, kolicina_ugljikohidrata, dnevna_potreba, rok;
-	tm* datum_isteka;
 	Potrosnja* mjesecna_potrsonja;
 public:
-	Food(string v, string n, int k_v, int k_p, int k_m, int k_u, time_t *r_t, int d_p);
+	Food(string v, string n, int k_v, int k_p, int k_m, int k_u, string r_t, int d_p);
 
 	Food(const Food& drugi);
 

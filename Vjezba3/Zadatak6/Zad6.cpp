@@ -22,7 +22,7 @@ vector<string> TRANSFORMATE(vector<string> rijeci) {
 				NOVO.push_back(rijeci[word] +'\0');
 				continue;
 			}
-			int brojac = 0, broj_ponavljanja = 1;//1?
+			int brojac = 0, broj_ponavljanja = 1;
 			while (brojac < rijeci[word].size()) {
 
 				if (brojac == 0) {
