@@ -1,5 +1,8 @@
 #include "Vec3.h"
 #include <math.h>
+using namespace OOP;
+
+int Vec3::counter = 0;
 
 Vec3::Vec3(float x1, float y1, float z1, float x2, float y2, float z2) {
 	x_poc = x1;
@@ -11,7 +14,7 @@ Vec3::Vec3(float x1, float y1, float z1, float x2, float y2, float z2) {
 	counter++;
 }
 
-std::istream& operator>>(std::istream& is, Vec3& vect) {
+std::istream& OOP::operator>>(std::istream& is, Vec3& vect) {
 	std::cout << "Unesi pocetni x: ";
 	is >> vect.x_poc;
 	std::cout << "Unesi pocetni y: ";
@@ -27,7 +30,7 @@ std::istream& operator>>(std::istream& is, Vec3& vect) {
 	return is;
 }
 
-std::ostream& operator<<(std::ostream& os, const Vec3& vect) {
+std::ostream& OOP::operator<<(std::ostream& os, const Vec3& vect) {
 	os << "Pocetni x: " << vect.x_poc << std::endl
 		<< "Pocetni y: " << vect.y_poc << std::endl
 		<< "Pocetni z: " << vect.z_poc << std::endl
@@ -128,6 +131,7 @@ float Vec3::operator[](std::string s) {
 		return y_kraj;
 	if (s.compare("z_kraj") == 0)
 		return z_kraj;
+	return 0;
 }
 
 Vec3& Vec3::normalize() {
