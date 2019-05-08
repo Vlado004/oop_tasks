@@ -40,6 +40,10 @@ public:
 		samostalna_potrosnja = s_pot;
 		potrosnja_kao_dio = dio_pot;
 	}
+
+	friend ostream& operator << (ostream& os, Mlijecni& mp);
+
+	friend istream& operator >> (istream& is, Mlijecni& mp);
 };
 
 class Mesni :public Food {
@@ -53,6 +57,10 @@ public:
 		samostalna_potrosnja = s_pot;
 		potrosnja_kao_dio = dio_pot;
 	}
+
+	friend ostream& operator << (ostream& os, Mesni& mp);
+
+	friend istream& operator >> (istream& is, Mesni& mp);
 };
 
 class Vege :public Food {
@@ -66,6 +74,10 @@ public:
 		samostalna_potrosnja = s_pot;
 		potrosnja_kao_prilog = dio_pri;
 	}
+
+	friend ostream& operator << (ostream& os, Vege& vp);
+
+	friend istream& operator >> (istream& is, Vege& vp);
 };
 
 class Kolaci :public Food {
@@ -76,6 +88,10 @@ public:
 		:Food(v, n, k_v, k_p, k_m, k_u, r_t, d_p) {
 		potrosnja = pot;
 	}
+
+	friend ostream& operator << (ostream& os, Kolaci& kp);
+
+	friend istream& operator >> (istream& is, Kolaci& kp);
 };
 
 class Sir :public Mlijecni {

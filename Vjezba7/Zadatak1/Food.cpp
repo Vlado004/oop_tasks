@@ -137,3 +137,32 @@ const int Food::detektiraj() {
 	}
 	return 0;
 }
+
+ostream& operator << (ostream& os, Mlijecni& mp) {
+	
+	os << mp.naziv << " ";
+}
+
+istream& operator >> (istream& is, Mlijecni& mp) {
+
+}
+
+istream& operator >> (istream& is, Mesni& mp) {
+
+}
+
+ostream& operator << (ostream& os, Vege& vp) {
+
+}
+
+istream& operator >> (istream& is, Vege& vp) {
+
+}
+
+ostream& operator << (ostream& os, Kolaci& kp) {
+
+}
+
+istream& operator >> (istream& is, Kolaci& kp) {
+
+}
