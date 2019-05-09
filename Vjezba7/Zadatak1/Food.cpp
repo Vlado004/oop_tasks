@@ -140,7 +140,7 @@ const int Food::detektiraj() {
 
 ostream& operator << (ostream& os, Mlijecni& mp) {
 	
-	os << mp.naziv << " ";
+	os << " ";
 }
 
 istream& operator >> (istream& is, Mlijecni& mp) {
