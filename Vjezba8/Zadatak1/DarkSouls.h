@@ -4,12 +4,16 @@
 #include "Rpg.h"
 using namespace std;
 
-class DarkSouls : Rpg {
-private:
-	string name = "DarkSouls3";
+namespace oss {
 
-public:
+	class DarkSouls : public Rpg {
+	private:
 
-};
+	public:
+		string name() { return "DarkSouls3"; }
 
+		~DarkSouls() {}
+	};
+
+}
 #endif

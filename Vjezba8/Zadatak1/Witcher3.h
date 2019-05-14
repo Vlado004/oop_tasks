@@ -5,14 +5,19 @@
 #include "OpenWorld.h"
 using namespace std;
 
-class Witcher3 : Rpg, OpenWorld {
-private:
-	string name = "Witcher3";
+namespace oss {
 
-public:
-	string type() {
-		return "Open World RPG";
-	}
-};
+	class Witcher3 : public Rpg, public OpenWorld {
+	private:
+
+	public:
+		string type() { return "Open World RPG"; }
+
+		string name() { return "Witcher3"; }
+
+		~Witcher3() {}
+	};
+
+}
 
 #endif

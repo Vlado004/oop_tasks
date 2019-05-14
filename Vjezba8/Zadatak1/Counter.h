@@ -1,18 +1,21 @@
 #ifndef COUNTER_H
 #define COUNTER_H
 
-#include <string>
 #include "VideoGame.h"
 
-class Counter {
-private:
-	int ps4, pc, xbox;
-public:
-	Counter() { ps4 = pc = xbox = 0; }
+namespace oss {
 
-	void add(VideoGame*);
+	class Counter {
+	private:
+		int ps4, pc, xbox;
+	public:
+		Counter() { ps4 = pc = xbox = 0; }
 
-	string most_frequent();
-};
+		void add(VideoGame* game);
+
+		string mostFrequentPlatform();
+	};
+
+}
 
 #endif

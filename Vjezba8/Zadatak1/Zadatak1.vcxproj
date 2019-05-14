@@ -122,12 +122,13 @@
     <ClInclude Include="GodOfWar.h" />
     <ClInclude Include="OpenWorld.h" />
     <ClInclude Include="Rpg.h" />
-    <ClInclude Include="TheLastOfUs2.h" />
+    <ClInclude Include="LastOfUs2.h" />
     <ClInclude Include="VideoGame.h" />
     <ClInclude Include="Witcher3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

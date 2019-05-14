@@ -4,12 +4,17 @@
 #include "Rpg.h"
 using namespace std;
 
-class Fallout4 : Rpg {
-private:
-	string name = "Fallout4";
+namespace oss {
 
-public:
+	class Fallout4 : public Rpg {
+	private:
 
-};
+	public:
+		string name() { return "Fallout4"; }
+
+		~Fallout4() {}
+	};
+
+}
 
 #endif

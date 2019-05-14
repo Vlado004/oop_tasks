@@ -4,12 +4,17 @@
 #include "Action.h"
 using namespace std;
 
-class GodOfWar : Action {
-private:
-	string name = "GodOfWar";
+namespace oss {
 
-public:
+	class GodOfWar : public Action {
+	private:
 
-};
+	public:
+		string name() { return "GodOfWar"; }
+
+		~GodOfWar() {}
+	};
+
+}
 
 #endif

@@ -1,0 +1,6 @@
+﻿  Counter.cpp
+d:\faks\oop\backup\oop_tasks\vjezba8\zadatak1\counter.cpp(19): warning C4018: '<': signed/unsigned mismatch
+d:\faks\oop\backup\oop_tasks\vjezba8\zadatak1\counter.cpp(29): warning C4018: '<': signed/unsigned mismatch
+d:\faks\oop\backup\oop_tasks\vjezba8\zadatak1\counter.cpp(33): warning C4018: '<': signed/unsigned mismatch
+d:\faks\oop\backup\oop_tasks\vjezba8\zadatak1\counter.cpp(37): warning C4018: '<': signed/unsigned mismatch
+  Zadatak1.vcxproj -> D:\Faks\OOP\Backup\oop_tasks\Vjezba8\Debug\Zadatak1.exe

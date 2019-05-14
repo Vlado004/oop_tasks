@@ -5,13 +5,17 @@
 #include <string>
 using namespace std;
 
-class VideoGame {
-public:
-	virtual ~VideoGame();
+namespace oss {
 
-	virtual string type()=0;
-};
+	class VideoGame {
+	public:
+		virtual ~VideoGame() = 0;
 
-VideoGame::~VideoGame() {}
+		virtual string type() = 0;
+
+		virtual string name() = 0;
+	};
+
+}
 
 #endif

@@ -4,11 +4,15 @@
 #include "Videogame.h"
 using namespace std;
 
-class Rpg : VideoGame {
-public:
-	string type() {
-		return "Rpg";
-	}
-};
+namespace oss {
+
+	class Rpg : virtual public VideoGame {
+	public:
+		string type() {
+			return "Rpg";
+		}
+	};
+
+}
 
 #endif
