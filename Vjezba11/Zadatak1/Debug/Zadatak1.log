@@ -1,3 +1,6 @@
 ﻿  Zad1.cpp
-d:\mateo mamut\oop_tasks\vjezba11\zadatak1\zad1.cpp(22): warning C4101: 'operand2': unreferenced local variable
-  Zadatak1.vcxproj -> D:\Mateo Mamut\oop_tasks\Vjezba11\Debug\Zadatak1.exe
+d:\faks\oop\backup\oop_tasks\vjezba11\zadatak1\zad1.cpp(32): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\faks\oop\backup\oop_tasks\vjezba11\zadatak1\zad1.cpp(34): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\faks\oop\backup\oop_tasks\vjezba11\zadatak1\zad1.cpp(36): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\faks\oop\backup\oop_tasks\vjezba11\zadatak1\zad1.cpp(42): warning C4715: 'izracunaj': not all control paths return a value
+  Zadatak1.vcxproj -> D:\Faks\OOP\Backup\oop_tasks\Vjezba11\Debug\Zadatak1.exe

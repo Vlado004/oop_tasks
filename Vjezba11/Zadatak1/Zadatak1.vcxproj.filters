@@ -26,5 +26,11 @@
     <ClInclude Include="XErrorOperand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="XErrorMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XErrorOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
